@@ -1,8 +1,9 @@
 <<<<<<< HEAD
+html,
 body{
+    width:100%;
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
-    margin:0;
-    background:#f4f4f4;
 }
 
 *{
