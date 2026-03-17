@@ -1,0 +1,266 @@
+<<<<<<< HEAD
+html,
+body{
+    width:100%;
+    overflow-x: hidden;
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.top-header{
+    background:#00732F;
+    color:white;
+    font-family:Cooper Black;
+    text-align:center;
+    padding:30px;
+    height: 80px;
+}
+
+.top-header h1{
+    margin:0;
+    font-size: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 230px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    text-align: center;
+    background:#c30010;
+    padding:10px;
+    position:relative;
+    height: 80px;
+}
+
+
+.links{
+    list-style:none;
+    display:flex;
+    gap:90px;
+    margin:0;
+    padding:0;
+    position:absolute;
+    left:18%;
+    transform:translateX(-10%);
+}
+
+.links a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    transition:0.3s;
+}
+
+.links a:hover{
+    color:#000;
+}
+
+.dropdown{
+    position:relative;
+}
+
+
+.content{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#c30010;
+    min-width:150px;
+    max-height:290px;
+    overflow-y:auto;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1000;
+}
+
+.content a{
+    display:block;
+    padding:10px 10px;
+    color:white;
+    text-decoration:none;
+}
+
+.content a:hover{
+    background:#f2f2f2;
+    color:#C8102E;
+}
+
+.dropdown:hover .content{
+    display:block;
+}
+
+.bg{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("../img/Portugal.jpg");
+    height:500px;
+    background-size:cover;
+    background-position:center; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.bg1{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("../img/cultural4.jfif");
+    height:500px;
+    background-size:cover;
+    background-position:center; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.bg2{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("../img/coastal1.jfif");
+    height:500px;
+    background-size:cover;
+    background-position:center; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.bg3{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("../img/r3.jfif");
+    height:500px;
+    background-size:cover;
+    background-position:center; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.bg4{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("../img/w2.jfif");
+    height:500px;
+    background-size:cover;
+    background-position:center; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.bg5{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("../img/n4.jfif");
+    height:500px;
+    background-size:cover;
+    background-position:center; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.bgtext h2{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.bgtext p{
+    font-size:20px;
+    max-width:700px;
+    margin:0 auto 20px;
+}
+
+.about,
+.place{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.about h2,
+.place h2{
+    color:#00732F;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:900px;
+    margin:0 auto;
+    line-height:1.7;
+    font-size:16px;
+    color:#222;
+}
+
+.box{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.box div{
+    width:250px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.box img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.box h3{
+    margin:15px 0 10px;
+    color:#C8102E;
+
+}
+
+.box p{
+    padding:0 15px;
+    font-size:14px;
+}
+
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:5px;
+    margin-top:40px;
+>>>>>>> c2985479d30da70c373f127cb75e600afe70cea3
+}
